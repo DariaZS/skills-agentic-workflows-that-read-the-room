@@ -19,8 +19,8 @@ safe-outputs:
 
 network:
   allowed:
-    - defaults
-    - github
+    - github.com
+    - github.blog
 ---
 
 # Update GitHub Info
