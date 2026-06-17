@@ -21,6 +21,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update GitHub Info
@@ -33,12 +34,13 @@ You are keeping Mona's GitHub Info website up to date with the latest posts from
 2. Read `site/content/github-info.md` to see the current content.
 3. Web fetch `https://github.blog/latest/` to find the most recent GitHub Blog posts.
 4. Web fetch `https://github.blog/changelog/` to find the most recent GitHub Changelog entries.
-5. Update `site/content/github-info.md` with new, noteworthy items:
+5. Web fetch `https://awesome-copilot.github.com/workflows/` to find relevant agentic workflows.
+6. Update `site/content/github-info.md` with new, noteworthy items:
    - Follow Mona's editorial angle: keep summaries short and practical.
-   - Always cite the source (GitHub Blog or GitHub Changelog) for each item.
+   - Always cite the source (GitHub Blog, GitHub Changelog, or Awesome Copilot Workflows) for each item.
    - Add new items under the `## Latest GitHub Updates` section.
    - Preserve existing content; only remove items that are clearly outdated.
-6. Open a pull request with the proposed changes for Mona to review.
+7. Open a pull request with the proposed changes for Mona to review.
 
 ## Pull Request
 
